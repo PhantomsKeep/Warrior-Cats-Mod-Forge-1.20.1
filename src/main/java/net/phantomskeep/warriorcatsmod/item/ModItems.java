@@ -17,6 +17,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()) );
     public static final RegistryObject<Item> YOUTHPAW = ITEMS.register("youthpaw",
             () -> new Item(new Item.Properties()) );
+    public static final RegistryObject<Item> ELDERPAW = ITEMS.register("elderpaw",
+            () -> new Item(new Item.Properties()) );
+    public static final RegistryObject<Item> KITTENPAW = ITEMS.register("kittenpaw",
+            () -> new Item(new Item.Properties()) );
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

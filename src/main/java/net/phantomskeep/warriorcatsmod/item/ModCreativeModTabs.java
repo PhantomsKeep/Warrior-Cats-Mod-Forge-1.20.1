@@ -19,6 +19,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                       pOutput.accept(ModItems.ADULTPAW.get());
                       pOutput.accept(ModItems.YOUTHPAW.get());
+                      pOutput.accept(ModItems.KITTENPAW.get());
+                      pOutput.accept(ModItems.ELDERPAW.get());
                     })
             .build());
 
