@@ -42,6 +42,7 @@ public class WarriorCatsMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ADULTPAW);
+            event.accept(ModItems.YOUTHPAW);
         }
     }
 
