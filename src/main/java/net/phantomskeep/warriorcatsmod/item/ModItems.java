@@ -11,6 +11,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, WarriorCatsMod.MOD_ID);
 
+    public static final RegistryObject<Item> ICON = ITEMS.register("icon",
+            () -> new Item(new Item.Properties()) );
     public static final RegistryObject<Item> ADULTPAW = ITEMS.register("adultpaw",
             () -> new Item(new Item.Properties()) );
     public static final RegistryObject<Item> YOUTHPAW = ITEMS.register("youthpaw",

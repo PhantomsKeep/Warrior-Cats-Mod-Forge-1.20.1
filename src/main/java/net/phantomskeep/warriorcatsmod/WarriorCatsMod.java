@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.phantomskeep.warriorcatsmod.item.ModCreativeModTabs;
 import net.phantomskeep.warriorcatsmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -24,6 +25,8 @@ public class WarriorCatsMod
 
     public WarriorCatsMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 

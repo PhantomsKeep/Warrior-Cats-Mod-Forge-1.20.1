@@ -1,4 +1,7 @@
 {
+  "item.warriorcatsmod.icon": "Icon",
   "item.warriorcatsmod.adultpaw": "Adult Paw",
-  "item.warriorcatsmod.youthpaw": "Youth Paw"
+  "item.warriorcatsmod.youthpaw": "Youth Paw",
+
+  "creativetab.warriorcats_tab" : "Warrior Cats"
 }
