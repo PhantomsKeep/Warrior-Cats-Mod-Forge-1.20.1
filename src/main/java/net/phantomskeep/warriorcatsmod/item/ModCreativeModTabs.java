@@ -30,9 +30,15 @@ public class ModCreativeModTabs {
                       pOutput.accept(ModItems.KITTENNOSE.get());
                       pOutput.accept(ModItems.ELDERNOSE.get());
 
-                        pOutput.accept(ModItems.GOLDENEAGLEFEATHER.get());
-                        pOutput.accept(ModItems.BALDEAGLEFEATHER.get());
-                        pOutput.accept(ModItems.WHITETAILEDEAGLEFEATHER.get());
+                      pOutput.accept(ModItems.GOLDENEAGLEFEATHER.get());
+                      pOutput.accept(ModItems.BALDEAGLEFEATHER.get());
+                      pOutput.accept(ModItems.WHITETAILEDEAGLEFEATHER.get());
+
+                      pOutput.accept(ModItems.RAWEAGLEMEAT.get());
+                      pOutput.accept(ModItems.RAWHAWKMEAT.get());
+                      pOutput.accept(ModItems.RAWOWLMEAT.get());
+
+                      pOutput.accept(ModItems.RAWSONGBIRDMEAT.get());
                     })
             .build());
 

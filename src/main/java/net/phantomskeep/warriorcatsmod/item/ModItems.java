@@ -38,12 +38,28 @@ public class ModItems {
     public static final RegistryObject<Item> KITTENNOSE = ITEMS.register("kittennose",
             () -> new Item(new Item.Properties()) );
 
+    // PREDATOR DROPS BELOW
+    // feathers
     public static final RegistryObject<Item> GOLDENEAGLEFEATHER = ITEMS.register("goldeneaglefeather",
             () -> new Item(new Item.Properties()) );
     public static final RegistryObject<Item> BALDEAGLEFEATHER = ITEMS.register("baldeaglefeather",
             () -> new Item(new Item.Properties()) );
     public static final RegistryObject<Item> WHITETAILEDEAGLEFEATHER = ITEMS.register("whitetailedeaglefeather",
             () -> new Item(new Item.Properties()) );
+    // meats
+    public static final RegistryObject<Item> RAWEAGLEMEAT = ITEMS.register("raweaglemeat",
+            () -> new Item(new Item.Properties().food(ModFoods.RAWEAGLEMEAT)) );
+    public static final RegistryObject<Item> RAWOWLMEAT = ITEMS.register("rawowlmeat",
+            () -> new Item(new Item.Properties().food(ModFoods.RAWOWLMEAT)) );
+    public static final RegistryObject<Item> RAWHAWKMEAT = ITEMS.register("rawhawkmeat",
+            () -> new Item(new Item.Properties().food(ModFoods.RAWHAWKMEAT)) );
+
+    // PREY DROPS BELOW
+    // feathers
+
+    // meats
+    public static final RegistryObject<Item> RAWSONGBIRDMEAT = ITEMS.register("rawsongbirdmeat",
+            () -> new Item(new Item.Properties().food(ModFoods.RAWSONGBIRDMEAT)) );
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

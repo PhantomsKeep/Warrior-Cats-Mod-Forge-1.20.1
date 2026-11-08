@@ -17,9 +17,20 @@
   "item.warriorcatsmod.kittennose": "Kitten Nose",
 
   // PREDATOR ITEMS BELOW
+  // feathers
   "item.warriorcatsmod.goldeneaglefeather": "Golden Eagle Feather",
   "item.warriorcatsmod.baldeaglefeather": "Bald Eagle Feather",
   "item.warriorcatsmod.whitetailedeaglefeather": "White-Tailed Eagle Feather",
+  //meats
+  "item.warriorcatsmod.raweaglemeat": "Eagle Meat",
+  "item.warriorcatsmod.rawhawkmeat": "Hawk Meat",
+  "item.warriorcatsmod.rawowlmeat": "Owl Meat",
+
+  // PREY ITEMS BELOW
+  // feathers
+
+  // meats
+  "item.warriorcatsmod.rawsongbirdmeat": "Songbird Meat",
 
   "creativetab.warriorcats_tab" : "Warrior Cats"
 }
