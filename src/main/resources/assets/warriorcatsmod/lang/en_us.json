@@ -1,9 +1,25 @@
 {
+  // ICONS BELOW
   "item.warriorcatsmod.icon": "Icon",
+
+  // PLAYER ITEMS BELOW
   "item.warriorcatsmod.adultpaw": "Adult Paw",
   "item.warriorcatsmod.youthpaw": "Youth Paw",
   "item.warriorcatsmod.elderpaw": "Elder Paw",
   "item.warriorcatsmod.kittenpaw": "Kitten Paw",
+  "item.warriorcatsmod.adultclaw": "Adult Claws",
+  "item.warriorcatsmod.youthclaw": "Youth Claws",
+  "item.warriorcatsmod.elderclaw": "Elder Claws",
+  "item.warriorcatsmod.kittenclaw": "Kitten Claws",
+  "item.warriorcatsmod.adultnose": "Adult Nose",
+  "item.warriorcatsmod.youthnose": "Youth Nose",
+  "item.warriorcatsmod.eldernose": "Elder Nose",
+  "item.warriorcatsmod.kittennose": "Kitten Nose",
+
+  // PREDATOR ITEMS BELOW
+  "item.warriorcatsmod.goldeneaglefeather": "Golden Eagle Feather",
+  "item.warriorcatsmod.baldeaglefeather": "Bald Eagle Feather",
+  "item.warriorcatsmod.whitetailedeaglefeather": "White-Tailed Eagle Feather",
 
   "creativetab.warriorcats_tab" : "Warrior Cats"
 }

@@ -21,6 +21,18 @@ public class ModCreativeModTabs {
                       pOutput.accept(ModItems.YOUTHPAW.get());
                       pOutput.accept(ModItems.KITTENPAW.get());
                       pOutput.accept(ModItems.ELDERPAW.get());
+                      pOutput.accept(ModItems.ADULTCLAW.get());
+                      pOutput.accept(ModItems.YOUTHCLAW.get());
+                      pOutput.accept(ModItems.KITTENCLAW.get());
+                      pOutput.accept(ModItems.ELDERCLAW.get());
+                      pOutput.accept(ModItems.ADULTNOSE.get());
+                      pOutput.accept(ModItems.YOUTHNOSE.get());
+                      pOutput.accept(ModItems.KITTENNOSE.get());
+                      pOutput.accept(ModItems.ELDERNOSE.get());
+
+                        pOutput.accept(ModItems.GOLDENEAGLEFEATHER.get());
+                        pOutput.accept(ModItems.BALDEAGLEFEATHER.get());
+                        pOutput.accept(ModItems.WHITETAILEDEAGLEFEATHER.get());
                     })
             .build());
 
