@@ -32,5 +32,8 @@
   // meats
   "item.warriorcatsmod.rawsongbirdmeat": "Songbird Meat",
 
+  // nests
+  "block.warriorcatsmod.moss_nest": "Moss Nest",
+
   "creativetab.warriorcats_tab" : "Warrior Cats"
 }
